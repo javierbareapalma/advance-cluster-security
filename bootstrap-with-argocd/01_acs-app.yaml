@@ -19,7 +19,8 @@ spec:
           prune: true
           selfHeal: true
       source:
-        repoURL: https://github.com/Everything-is-Code/advance-cluster-security.git
+        #repoURL: https://github.com/Everything-is-Code/advance-cluster-security.git
+        repoURL: https://github.com/javierbareapalma/advance-cluster-security.git
         targetRevision: main
         path: resources/
       destination:
